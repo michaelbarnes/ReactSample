@@ -16,10 +16,8 @@ var options = {
   }]
 };
 
-console.log('');
-
 // render class
 var element = React.createElement(ThumbnailList, options);
 
 // place the class in the body
-ReactDOM.render(element, document.querySelector('.target'));
+ReactDOM.render(element, document.querySelector('.container'));
