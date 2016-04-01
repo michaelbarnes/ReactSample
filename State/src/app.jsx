@@ -2,11 +2,7 @@ var React = require('react');
 var DropDown = require('./dropdown')
 var options = {
   title: 'Select Module',
-  items: [{
-    lineitem: 'JS'
-  },{
-    lineitem: 'CSS'
-  }]
+  items: ['JS', 'CSS']
 };
 
 // render class
