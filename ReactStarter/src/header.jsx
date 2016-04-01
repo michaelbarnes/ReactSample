@@ -28,6 +28,11 @@ module.exports = React.createClass({
     this.setState({text: event.target.value});
   },
   handleClick: function(){
-    console.log(this.state.text)
+    this.props.itemsStore.push({
+      text: this.state.text,
+      done: false
+    });
+
+    this.setState({text: ''});
   },
 });
